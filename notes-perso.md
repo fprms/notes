@@ -1,7 +1,33 @@
-#Notes générales
+# Notes générales
+
+## Les deux catégories de valeurs (Primitives vs Object)
+### Primitives
+* Number
+* Boolean
+* String
+* Null
+* Undefined
+
+### Object
+* Math
+* Date
+* JSON
+* Browser Object (window, document, etc)
+* Custom Object
+* Array
+* Function
+
+Un objet est une collection de propriétés :
+```JavaScript
+const monObjet = new Object{
+  nomPropriété:nomValeur,
+}
+```
+
+### Méthode vs Propriété
 
 
-Une application JS n’est pas spécialement prévue pour tourner dans un navigateur web.
+Un tableau est une collection de valeurs ordonnées selon un index.
 
 Expliquer le sens de “retourner” au sens de JavaScript ?
 l'instruction return sert à plusieurs choses :
@@ -15,10 +41,11 @@ Expliquer le sens de récursive/récursif (recursive) ?
 Les fonctions peuvent être passée comme argument car elles sont considérées comme des variables par JavaScript.
 
 ## Scope vs Context
-**Scope** est la portée d'une variable dans l'environnement. Context est la portée de **this**. 
+**Scope** est la portée d'une variable dans l'environnement. Context est la portée de **this**.
 
 ## Context
-Le contexte est la référence de this. Il dépend de l'environnement d 
+Le contexte est la référence de this. Il dépend de l'environnement ...
+
 
 Qu'est-ce que le hoisting ?
 
@@ -45,22 +72,23 @@ Qu’est-ce que JavaScript ES6 ?
 
 Qu’est-ce qu’un websocket ?
 
-Quelle est l’utilité de Lodash : https://lodash.com/ 
+Quelle est l’utilité de Lodash : https://lodash.com/
 
-Faire un petit historique de JavaScript 
+Faire un petit historique de JavaScript
 
+## Destructuring
 L'affectation par décomposition (destructuring en anglais) est une expression JavaScript qui permet d'extraire (unpack en anglais) des données d'un tableau ou d'un objet grâce à une syntaxe dont la forme ressemble à la structure du tableau ou de l'objet.
 
 
 
-Higher-Order functions
+## Higher-Order functions
 
 Les fonctions sont des valeurs (functions are values).
 
 Why ?
 Moins de bug (plus facile à comprendre/relire) en moins de temps (plus réutilisable).
 
-What 
+What
 
 How
 
@@ -79,6 +107,3 @@ On utilise state quand il n'y a qu'un élément dans le composant (?) et que cel
 
 ## À revoir
 - la vidéo ES6 (E14) sur les tagged template literals (function qui découpe une String en morceaux).
-
-
-
